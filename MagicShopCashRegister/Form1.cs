@@ -108,9 +108,14 @@ namespace MagicShopCashRegister
             //an error message is displayed and the next button is disabled if the tendered amount is lower than the total cost
 
             if (tendered < totalCost)
+            {
                 changeOutput.Text = $"ERROR";
+            }
             if (tendered < totalCost)
+            {
                 receiptButton.Enabled = false;
+            }
+                
             
             //click sound plays
 
