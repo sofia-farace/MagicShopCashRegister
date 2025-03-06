@@ -151,8 +151,9 @@ namespace MagicShopCashRegister
             Thread.Sleep(300);
 
             if (cauldronAmount > 0)
+            {
                 outputLabel.Text += $"\nCAULDRONS:___x{cauldronAmount} @ ${cauldronPrice}";
-
+            }
             Refresh();
             Thread.Sleep(300);
             
